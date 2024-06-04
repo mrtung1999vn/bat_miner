@@ -1,0 +1,17 @@
+<!-- views/jsonFileList.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách tập tin JSON</title>
+</head>
+<body>
+    <h1>Danh sách các tập tin JSON:</h1>
+    <ul>
+        <% jsonFiles.forEach(file => { %>
+            <li><a href="/json-file?file=<%= file %>"><%= file %></a></li>
+        <% }); %>
+    </ul>
+</body>
+</html>

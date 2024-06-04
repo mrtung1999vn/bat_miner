@@ -1,0 +1,1 @@
+{"success":true,"message":"Ok","data":{"explorer":"https://bscscan.com/tx/","coin":"USDT","list":[{"tx":"0xe58c83461cbbeaa462595c71826f5c2e8dcdabbea2eea9013490500a80aee293","amount":"1.504734","timestamp":1717290187000,"status":"success","id":5230221,"network":"BSC","explorer":"https://bscscan.com/tx/"}],"has_next":false,"has_prev":false,"last_page":1,"count":1}}

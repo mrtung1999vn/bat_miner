@@ -1,0 +1,24 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Bat File</title>
+</head>
+<body>
+    <h1>Chào mừng đến với ứng dụng mở tập tin .bat</h1>
+    <form action="/open-bat-file" method="GET">
+        <label for="batFile">Chọn tập tin .bat:</label>
+        <select id="batFile" name="batFile">
+            <option value="worker.bat">worker.bat</option>
+            <option value="start.bat">start.bat</option>
+            <option value="referrals.bat">referrals.bat</option>
+            <option value="payments.bat">payments.bat</option>
+            <option value="address.bat">address.bat</option>
+            <option value="account.bat">account.bat</option>
+        </select>
+        <button type="submit">Mở tập tin .bat</button>
+    </form>
+</body>
+</html>
